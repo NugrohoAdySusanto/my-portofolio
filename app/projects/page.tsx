@@ -31,7 +31,7 @@ export default function ProjectsPage() {
       title: "Network Installation and Configuration",
       description: "Installation and configuration for a small business using Ubiquiti switches and APs.",
       image: "/Project-1.jpg?height=200&width=300",
-      technologies: ["Ubiquiti", "Unifi AP",],
+      technologies: ["Ubiquiti", "Unifi",],
       //github: "#",
       //demo: "#",
     },

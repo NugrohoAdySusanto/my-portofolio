@@ -6,11 +6,12 @@ import { Download, Mail, Phone, MapPin } from "lucide-react"
 
 export default function AboutPage() {
   const skills = [
-    "Ciso",
+    "Cisco",
     "Mikrotik",
     "Fortigate",
     "Aruba",
     "Ruijie",
+    "Sangfor",
     "Cato",
     "vSphere",
     "Proxmox",
@@ -49,16 +50,16 @@ export default function AboutPage() {
   // Work Experience
   const experience = [
     {
-      title: "IT Infrastructure Support",
+      title: "IT Infrastructure Support - Analyst",
       company: "PT ids Medical System Indonesia",
       period: "Feb 2024 - Mei 2025",
-      description: "Manage IT infrastructure, provide support to all employees, collaborate and lead idsMED projects.",
+      description: "Manage IT infrastructure, provide support to all employees, collaborate & coordinate on idsMED projects. Ensure devices and users complaince with SOP & DIT policies, manage company assets, provide training & educate to all employees.",
     },
     {
       title: "IT Support",
       company: "CV Printerust Media",
       period: "Dec 2022 - Dec 2023",
-      description: "Manage IT infrastructure and printing machines, create frontend websites, lead, monitor and report team work.",
+      description: "Managing IT infrastructure as well as printing machine, provide daily support, creating frontend websites, leading, monitoring, and reporting team work to company owners.",
     },
   ]
 
@@ -68,7 +69,7 @@ export default function AboutPage() {
       title: "Informatics Engineering",
       institution: "Budi Luhur University",
       period: "2023 - Present",
-      description: "Informatics Engineering student with a strong interest in IT, currently learning and developing skills in Networking, Cybersecurity, System Admin, and Programming",
+      description: "Informatics Engineering student with a strong interest in IT, currently learning and developing skills in Infrastructure, Networking, Cybersecurity, System Admin, Programming and IoT",
     },
     {
       title: "Multimedia",
@@ -90,13 +91,13 @@ export default function AboutPage() {
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Me</h1>
               <div className="space-y-4 text-base text-gray-600 mb-8">
                   <p>
-                    I am Nugroho Ady Susanto, an IT enthusiast who has experience as a IT Infrastructure Support at PT idsMED, responsible for managing IT infrastructure, providing support for head office and branches and collaborating and leading projects.
+                    I am Nugroho Ady Susanto, an IT professional who has experience as a IT Infrastructure Analyst at PT idsMED, responsible for managing IT infrastructure, providing support for head office and branches and collaborating and leading on idsMED projects.
                   </p>
                   <p>
-                    I am currently studying Informatics Engineering at Budi Luhur University. My focus is on IT infrastructure, including network, sys admin and others.
+                    I am currently studying Informatics Engineering at Budi Luhur University. My focus is on IT infrastructure, daily support, networking and system administrator.
                   </p>
                   <p>
-                    I am a person who can adapt quickly, can work well with others, and have effective communication skills to collaborate with other teams and departments. In addition, I have strong problem-solving abilities and like to keep up with technology to stay relevant in today's industry.
+                    I am a person who can adapt quickly, can work well with others, and have effective communication skills to collaborate with other teams, departments and vendor. In addition, I have strong problem-solving abilities and like to keep up with technology to stay relevant in today's industry.
                   </p>
                 </div>
             </div>

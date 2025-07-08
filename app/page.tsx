@@ -18,7 +18,7 @@ export default function HomePage() {
                 Hi, I'm <span className="text-blue-600">Nugroho Ady Susanto</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
-                IT enthusiast with hands-on experience in IT Infrastructure and Support, and a growing focus on Network Engineering and System Administration.
+                IT professional with hands-on experience in IT Infrastructure Support - Analyst & IT Support, and focus on careers in IT Infrastructure, IT Support, Network Engineering and System Administrator.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8">
                 <Button asChild size="lg">

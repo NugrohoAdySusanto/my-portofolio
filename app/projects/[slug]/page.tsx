@@ -12,11 +12,12 @@ const projectsData = {
     title: "Network Installation and Configuration",
     description: "Installation and configuration for a small business using Ubiquiti switches and APs",
     longDescription: `In the world of small businesses, having a reliable and efficient network infrastructure is essential to support day-to-day operations. One of the best solutions for this need is to use devices from Ubiquiti, specifically Ubiquiti Switches and UniFi Access Points. Ubiquiti Switches connect devices in a local network (LAN), ensuring smooth and efficient data flow between computers, printers, and other devices. On the other hand, UniFi Access Points provide fast and secure wireless connectivity, allowing employees and customers to easily access Wi-Fi in various areas of the business, be it workspaces or public areas.
-
-Installation and configuration of these devices require careful setup. Installation of the device is done carefully to ensure optimal network signal throughout the business area. Settings such as SSID, WPA3 for network security, and access restrictions are essential to protect data and maintain stable connectivity. Additionally, setup options such as VPN or firewall can be implemented to add another layer of security to the network, protecting critical data from outside threats.
-
-The main advantages of using Ubiquiti devices are scalability and manageability. Small businesses can easily add devices as needs evolve without incurring major costs. With solutions that can be expanded and managed efficiently, Ubiquiti gives small businesses an affordable, reliable, and secure network that supports enterprise productivity and security in this digital age.`,
+`,
+    longDescription2: `Installation and configuration of these devices require careful setup. Installation of the device is done carefully to ensure optimal network signal throughout the business area. Settings such as SSID, WPA3 for network security, and access restrictions are essential to protect data and maintain stable connectivity. Additionally, setup options such as VPN or firewall can be implemented to add another layer of security to the network, protecting critical data from outside threats.`,
+    longDescription3: `The main advantages of using Ubiquiti devices are scalability and manageability. Small businesses can easily add devices as needs evolve without incurring major costs. With solutions that can be expanded and managed efficiently, Ubiquiti gives small businesses an affordable, reliable, and secure network that supports enterprise productivity and security in this digital age.`,
     image: "/Project-1.jpg?height=400&width=600",
+    image2: "/Project-1.jpg?height=400&width=600",
+    image3: "/Project-1.jpg?height=400&width=600",
     technologies: ["Ubiquiti", "Unifi AP",],
     //github: "https://github.com/johndoe/ecommerce-platform",
     //demo: "https://ecommerce-demo.vercel.app",
@@ -40,12 +41,13 @@ The main advantages of using Ubiquiti devices are scalability and manageability.
   "server-installation": {
     title: "Server Installation",
     description: "Perform DELL server Installation, and configure ESXi, vCenter, and vSphere.",
-    longDescription: `In this project, I was responsible for installing DELL servers and configuring VMware virtualization platforms, including ESXi, vCenter, and vSphere. The first step began with the hardware setup of the DELL server, which was chosen for its ability to handle large workloads and high reliability. These servers are installed and configured to support a robust virtualization environment, ensuring that all hardware is in working order to maximize performance and efficiency. Once the hardware was installed, I proceeded with the installation of ESXi, which is a type 1 hypervisor that runs directly on top of the server hardware, allowing for efficient creation and management of virtual machines.
-
-Next, I configured vCenter as the management center for all ESXi hosts in this virtualization infrastructure. vCenter enables more centralized management of ESXi hosts, including performance monitoring, resource distribution settings, and integration with storage systems and networks. Using vSphere, I can provide full control over the virtual infrastructure, including dynamic resource allocation settings, centralized storage management, and virtual network settings. This project aims to optimize IT infrastructure management, improve operational efficiency, and provide flexibility for infrastructure scaling according to company needs.
-
+    longDescription: `In this project, I was responsible for installing DELL servers and configuring VMware virtualization platforms, including ESXi, vCenter, and vSphere. The first step began with the hardware setup of the DELL server, which was chosen for its ability to handle large workloads and high reliability. These servers are installed and configured to support a robust virtualization environment, ensuring that all hardware is in working order to maximize performance and efficiency. Once the hardware was installed, I proceeded with the installation of ESXi, which is a type 1 hypervisor that runs directly on top of the server hardware, allowing for efficient creation and management of virtual machines.`,
+    longDescription2: `Next, I configured vCenter as the management center for all ESXi hosts in this virtualization infrastructure. vCenter enables more centralized management of ESXi hosts, including performance monitoring, resource distribution settings, and integration with storage systems and networks. Using vSphere, I can provide full control over the virtual infrastructure, including dynamic resource allocation settings, centralized storage management, and virtual network settings. This project aims to optimize IT infrastructure management, improve operational efficiency, and provide flexibility for infrastructure scaling according to company needs.`,
+    longDescription3: `
 However, some technical challenges are also faced during this installation and configuration process. Configuring vCenter and vSphere requires a deep understanding of VMware's virtualization architecture, virtual network management, and centralized storage. In addition, ensuring compatibility of DELL server hardware with ESXi and configuring the BIOS to support virtualization were also challenges to be solved. Other constraints involved effective management and organization of VMs to ensure optimal resource allocation and avoid performance bottlenecks, which required meticulous and deliberate organization.`,
     image: "/Project-2.jpg?height=400&width=600",
+    image2: "/Project-2.jpg?height=400&width=600",
+    image3: "/Project-2.jpg?height=400&width=600",
     technologies: ["Dell", "ESXi", "vCenter", "vSphere", "VMware",],
     //github: "https://github.com/johndoe/task-management",
     //demo: "https://taskmanager-demo.vercel.app",
@@ -72,7 +74,11 @@ However, some technical challenges are also faced during this installation and c
     title: "Cooming Soon",
     description: "",
     longDescription: ``,
+    longDescription2: ``,
+    longDescription3: ``,
     image: "/Project-3.jpg?height=400&width=600",
+    image2: "/Project-3.jpg?height=400&width=600",
+    image3: "/Project-3.jpg?height=400&width=600",
     technologies: ["Soon", ],
     //github: "https://github.com/johndoe/weather-dashboard",
     //demo: "https://weather-dashboard-demo.vercel.app",
@@ -87,12 +93,14 @@ However, some technical challenges are also faced during this installation and c
   "social-media-app": {
     title: "social-media-app",
     description: "A beautiful weather dashboard with location-based forecasts and interactive charts",
-    longDescription: `This weather dashboard provides users with comprehensive weather information in a beautiful and intuitive interface. Built with React and integrated with multiple weather APIs, it offers accurate forecasts and detailed weather data.
-
-The application features location-based weather detection, allowing users to get weather information for their current location or search for any city worldwide. The dashboard displays current conditions, hourly forecasts, and extended 7-day forecasts with detailed meteorological data.
-
+    longDescription: `This weather dashboard provides users with comprehensive weather information in a beautiful and intuitive interface. Built with React and integrated with multiple weather APIs, it offers accurate forecasts and detailed weather data.`,
+    longDescription2: `
+The application features location-based weather detection, allowing users to get weather information for their current location or search for any city worldwide. The dashboard displays current conditions, hourly forecasts, and extended 7-day forecasts with detailed meteorological data.`,
+    longDescription3: `
 Interactive charts powered by Chart.js provide visual representations of temperature trends, precipitation probability, and other weather metrics. The application also includes weather alerts and notifications for severe weather conditions.`,
     image: "https://images.unsplash.com/photo-1579869847557-1f67382cc158?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image2: "https://images.unsplash.com/photo-1579869847557-1f67382cc158?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image3: "https://images.unsplash.com/photo-1579869847557-1f67382cc158?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     technologies: ["React", "Chart.js", "Weather API", "Geolocation API", "CSS3"],
     github: "https://github.com/johndoe/weather-dashboard",
     demo: "https://weather-dashboard-demo.vercel.app",
@@ -195,6 +203,18 @@ export default function ProjectDetail({ params }: { params: { slug: string } }) 
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Project Overview</h2>
             <div className="text-gray-600 mb-8 whitespace-pre-line">{project.longDescription}</div>
+            <img
+              src={project.image2 || "/placeholder.svg"}
+              alt={project.title}
+              className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg mb-8"
+            />
+            <div className="text-gray-600 mb-8 whitespace-pre-line">{project.longDescription2}</div>
+            <img
+              src={project.image3 || "/placeholder.svg"}
+              alt={project.title}
+              className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg mb-8"
+            />
+            <div className="text-gray-600 mb-8 whitespace-pre-line">{project.longDescription3}</div>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Key Purpose</h2>
             <ul className="list-disc list-inside space-y-2 text-gray-600 mb-8">
